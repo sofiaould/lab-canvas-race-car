@@ -40,7 +40,11 @@ function draw() {
   //
   // Iteration #4: obstacles
   //
-
+ if (frames%150 === 0){
+   let obstacle = new Obstacle()
+   obstacles.push (obstacle)
+ }
+ osctales.forEach
   // TODO
 
   //
@@ -97,6 +101,7 @@ function startGame() {
 
   // TODO
 car = new Car()
+obstacles =[];
   animLoop();
 }
 
